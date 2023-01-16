@@ -88,7 +88,7 @@ def timeCheck():
 def wifiScan():
     wlan = network.WLAN(network.STA_IF)
     wlan.active(True)
-    _, rightMeowstr, _, rightMeowtime = timeCheck("time")
+    _, rightMeowstr, _, rightMeowtime = timeCheck()
     ping = wlan.scan()
 
     secLevels = ["Open", "WEP", "WPA-PSK", "WPA2-PSK", "WPA/WPA2-PSK"]
