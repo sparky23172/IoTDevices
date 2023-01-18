@@ -13,12 +13,15 @@
    - The "top" button will scan the near by SSID's from wifi access points and record the data along with time every time the button is clicked. 
      - For convince, there are 2 LEDs on the device. One to signal ready for scanning and the other to signal a scan is in progress
    - The "bottom" button is to stop the scanning and to turn off the LEDs as they can potentially be very bright.
-  - V2 (Building) is similar to V1 except that it is optimized to be used on a drone. The main differences are
+  - V2 (Released) is similar to V1 except that it is optimized to be used on a drone. The main differences are
     - Scanning is done automatically versus manually (every 10 seconds AFTER a scan is complete)
-    - No LEDs are attached since the scanning is done automatically
+    - ~~No LEDs are attached since the scanning is done automatically~~
+      - Signaling via LED is done from the on board LED vs attaching LEDs on a board
     - The top button starts the scanning with a 30 second delay instead of instantly
       - The automatic scanning starts and continues after the first initial scan.
-      - The bottom button works the same.
+      - ~~The bottom button works the same.~~
+        - The buttons have been removed in exchange for touching the pins. 
+        - Left side is now the bottom button and right side is now the top. 
    - V3 (In development) is the ideal first end goal. The device would be able to do the following:
      - Be loaded with a target SSID to impersonate
      - Check to make sure that the SSID is in range and it has a decent connection to it (-70 dBm or lower ideally. After -80, it will wait a set number of seconds and wait until it has a greater signal)
