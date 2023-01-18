@@ -20,7 +20,7 @@
       - The automatic scanning starts and continues after the first initial scan.
       - The bottom button works the same.
    - V3 (In development) is the ideal first end goal. The device would be able to do the following:
-     - Be loaded with a target SSID to impresonate
+     - Be loaded with a target SSID to impersonate
      - Check to make sure that the SSID is in range and it has a decent connection to it (-70 dBm or lower ideally. After -80, it will wait a set number of seconds and wait until it has a greater signal)
      - If the above is set, it will then set up an evil twin with an open network
      - At this point, it will deploy a captive portal with a phishing page to gather passwords for the WiFi.
