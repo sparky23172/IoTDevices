@@ -3,6 +3,11 @@
  - Flying racoons is a series of IoT devices that were developed to assist in hacking companies wifi networks. 
  - The general goal of all of these programs is to either assist or preform a phishing attack via a wifi hotspot (similar to an evil twin attack) and allow an attacker to gain the credentials to a wifi network.
 
+### Why make Flying Raccoons?
+
+ - Flying Raccoons is being developed due to how small and cheap IoT devices are. While a Wifi Pineapple can do more, deploying one is often more difficult due to size and the look of their antenna. Small devices like the ESP32 and ESP8266 do not have this issue as they are easily concealable. 
+ - Another benefit to this is that they can also be put in small containers and dropped anywhere. My favorite method for delivery is via drone. This allows placement of these kinds of devices to be even harder to find along with being more discreet. If equipped with a magnet, you can even retrieve the device without having to be able to physically reach the area.
+
 ### How is this different from a wifi pineapple or other wifi testing device?
 
  - The main difference is that these programs are designed to be used on an ESP32 or ESP8266 devices using Micropython. The reason for this is so that you can cheaply deploy a device and not fear about what happens if it gets damaged. 
